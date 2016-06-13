@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </DatePicker>
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:layout_height="wrap_content" >
+    </TimePicker>
+
+    <TextView
+        android:id="@+id/tv_time_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:text="You will be reminded to move your car!"
+        android:textSize="@dimen/text_size_small" />
+
+    <Button
+        android:id="@+id/btn_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="@color/white"
+        android:text="@string/set_reminder"
+        android:gravity="center"
+        android:background="@drawable/btn_green_bg"
+        android:textSize="@dimen/btn_text_size_small" />
+
+</LinearLayout>

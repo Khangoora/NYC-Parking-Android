@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NYC Parking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">NYC Parking</string>
+    <string name="set_reminder_text">Set Alarm</string>
+    <string name="view_location_text">View Parking Location</string>
+    <string name="set_reminder">Set Alarm</string>
+    <string name="get_address">Finding Address...</string>
+    <string name="move_car_notification">Your car needs to be moved!</string>
+    <string name="GooglePlacesAutoCompleteAPI">https://maps.googleapis.com/maps/api/place/autocomplete/json?</string>
+    <string name="GooglePlacesPlaceAPI">https://maps.googleapis.com/maps/api/place/details/json</string>
+    <string name="GoogleGeoCode">http://maps.googleapis.com/maps/api/geocode/json</string>
+    <string name="title_activity_park">NYC Parking</string>
+    <string name="play_store_link">https://play.google.com/store/apps/details?id=com.jaskirat.alternate_parking</string>
+    <string name="shortened_url">http://goo.gl/xZVgbt</string>
+    <string name="fb_app_id">862529673759560</string>
+
+    <!-- Park Activity -->
+    <string name="end_parking">Move Vehicle</string>
+    <string name="time_left">Parking Ends At</string>
+    <string name="parking_available">Check Available Parking</string>
+    <string name="title_activity_share">NYC Parking</string>
+
+
+    <!-- Share Activity -->
+    <string name="close_text">Close</string>
+    <string name="fb_text">Share via Facebook</string>
+    <string name="twitter_text">Share via Twitter</string>
+    <string name="email_text">Share via Email</string>
+    <string name="sms_text">Share via SMS</string>
+    <string name="review_text">Leave a Review</string>
+    <string name="review_desc">If you found our app to be useful, please leave us a nice review.</string>
+    <string name="share_message">Find street parking in NYC.</string>
+    <string name="email_share_subject">Check out the new NYC Parking App!</string>
+
+</resources>

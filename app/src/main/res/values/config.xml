@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="car_parked">carParked</string>
+    <string name="lat">lat</string>
+    <string name="lng">lng</string>
+    <string name="address">address</string>
+    <string name="alarm_time">alarmTime</string>
+</resources>

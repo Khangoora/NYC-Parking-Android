@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.example.jaskirat.alternate_parking.activity.ShareActivity">
+
+    <Button
+        android:id="@+id/btn_fb_share"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textColor="@color/white"
+        android:text="@string/fb_text"
+        android:drawableLeft="@drawable/facebook"
+        android:drawablePadding="@dimen/btn_drawable_padding"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/btn_blue_bg"
+        android:textSize="@dimen/btn_text_size"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/btn_sms_share"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textColor="@color/white"
+        android:text="@string/sms_text"
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/btn_drawable_padding"
+        android:drawableLeft="@drawable/sms"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/btn_green_bg"
+        android:textSize="@dimen/btn_text_size"
+        android:layout_below="@+id/btn_fb_share" />
+
+
+    <Button
+        android:id="@+id/btn_twitter_share"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textColor="@color/white"
+        android:text="@string/twitter_text"
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/btn_drawable_padding"
+        android:drawableLeft="@drawable/twitter"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/btn_blue_bg"
+        android:textSize="@dimen/btn_text_size"
+        android:layout_below="@+id/btn_sms_share" />
+
+    <Button
+        android:id="@+id/btn_email_share"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textColor="@color/white"
+        android:text="@string/email_text"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="@dimen/btn_drawable_padding"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/btn_green_bg"
+        android:textSize="@dimen/btn_text_size"
+        android:layout_below="@+id/btn_twitter_share" />
+
+    <TextView
+        android:id="@+id/tv_review_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/btn_text_size_small"
+        android:text="@string/review_desc"
+        android:layout_below="@+id/btn_email_share"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <Button
+        android:id="@+id/btn_leave_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/review_text"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:background="@drawable/btn_blue_bg"
+        android:textSize="@dimen/btn_text_size_small"
+        android:layout_below="@+id/tv_review_desc" />
+
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textColor="@color/black"
+        android:drawablePadding="@dimen/btn_drawable_padding"
+        android:text="@string/close_text"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textSize="@dimen/btn_text_size"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
